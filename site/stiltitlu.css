@@ -1,0 +1,32 @@
+.wavy{
+margin-top: -8;
+margin-left: -7;
+width: 50.3cm;
+text-align: center;
+}
+.wavy span{
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-size: 40;
+    position: relative;
+    display:inline-block;
+    animation: animate 2s  infinite;
+    animation-delay: calc(0.1s * var(--i));
+}
+@keyframes animate{
+    0%
+    {
+      color: rgb(247, 0, 255);
+    }
+    20%
+    {
+    }
+    40%
+    {
+    }
+    60%
+    {
+        color: rgb(255, 255, 255);
+      }
+}
